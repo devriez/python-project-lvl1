@@ -5,5 +5,9 @@
 
 https://github.com/devriez/python-project-lvl1/workflows/linter-check/badge.svg
 
-![linter-check](https://github.com/actions/python-project-lvl1/workflows/linter-check/badge.svg)
+![linter-check](https://github.com/devriez/python-project-lvl1/workflows/linter-check/badge.svg)
+
+![example workflow file path](https://github.com/actions/hello-world/workflows/.github/workflows/main.yml/badge.svg)
+https://github.com/devriez/python-project-lvl1/blob/main/.github/workflows/linter-check.yml
+
 
