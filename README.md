@@ -6,3 +6,4 @@
 https://github.com/devriez/python-project-lvl1/workflows/linter-check/badge.svg
 
 ![linter-check](https://github.com/actions/python-project-lvl1/workflows/linter-check/badge.svg)
+
