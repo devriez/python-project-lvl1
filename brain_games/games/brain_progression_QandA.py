@@ -9,7 +9,7 @@ def generate():
     start = random.randint(0, 20)
     finish = start + length * step
     progression = [str(x) for x in range(start, finish, step)]
-    answer = progression[positioin]
+    answer = progression[position]
     progression[position] = '..'
     question = ' '.join(progression)
 
