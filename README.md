@@ -8,3 +8,5 @@
 https://asciinema.org/a/OA8pRpFigfY4Q8z84YkYTB5Dl
 
 check how work's git push on VSCode2
+
+change to check vscode
