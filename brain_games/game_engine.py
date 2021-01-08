@@ -12,7 +12,7 @@ def main(game, user_name):
         (_, question, correct_answer) = game()
 
         print('Question: ', question)
-        answear = prompt.string('Your answer: ')
+        answer = prompt.string('Your answer: ')
 
         if answer == correct_answer:
             print("Correct!")
