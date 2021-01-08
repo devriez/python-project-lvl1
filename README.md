@@ -6,9 +6,3 @@
 ![linter-check](https://github.com/devriez/python-project-lvl1/workflows/linter-check/badge.svg)
 
 https://asciinema.org/a/OA8pRpFigfY4Q8z84YkYTB5Dl
-
-check how work's git push on VSCode2
-
-change to check vscode
-
-True&
