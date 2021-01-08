@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-import brain_games.game_engine
+import brain_games.game_engine.main
 from brain_games.games.brain_calc_QandA import generate
 from brain_games.welcome import welcome_user
 

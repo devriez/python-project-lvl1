@@ -2,7 +2,7 @@
 
 
 import brain_games.game_engine
-from brain_games.games.brain_gcd_QandA import generate
+from brain_games.games.brain_progression_QandA import generate
 from brain_games.welcome import welcome_user
 
 
