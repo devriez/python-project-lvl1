@@ -8,8 +8,8 @@ from brain_games.welcome import welcome_user
 
 def main():
     name = welcome_user()
-    game_engine.mane(generate, name)
+    brain_games.game_engine.main(generate, name)
 
 
-if name == '__name__':
+if __name__ == '__mane__':
     main()

@@ -8,10 +8,10 @@ def generate():
     question = f'{number1} {number2}'
 
     while number1 != 0 and number2 != 0:
-    if number1 > number2:
-        number1 %= number2
-    else:
-        number2 %= number1
+        if number1 > number2:
+            number1 %= number2
+        else:
+            number2 %= number1
 
     answer = number1 + number2
 
