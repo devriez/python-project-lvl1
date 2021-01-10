@@ -6,7 +6,7 @@ def ask_and_check_answer(game, user_name):
     for i in range(3):
         (question, correct_answer) = game()
 
-        print('Question: ', question)
+        print('Question:', question)
         answer = prompt.string('Your answer: ')
 
         if answer == correct_answer:
