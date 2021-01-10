@@ -11,4 +11,3 @@ def generate_QandA():
         answer = 'no'
 
     return(question, answer)
-    

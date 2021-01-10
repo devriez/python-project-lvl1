@@ -14,4 +14,3 @@ def main():
 
 if __name__ == '__mane__':
     main()
-    

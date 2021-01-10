@@ -13,4 +13,3 @@ def generate_QandA():
     question = ' '.join(progression)
 
     return(question, str(answer))
-    
