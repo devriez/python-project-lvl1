@@ -6,7 +6,7 @@ def isPrime(a):
 
 
 def generate_QandA():
-    number = random.randint(1, 10)
+    number = random.randint(1, 20)
     question = f'{number}'
     answer = 'yes' if isPrime(number) else 'no'
 
