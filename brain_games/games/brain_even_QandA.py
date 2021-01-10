@@ -1,7 +1,8 @@
 import random
 
+
 def generate_QandA():
-    
+
     question = random.randint(0, 100)
 
     if question % 2 == 0:
@@ -10,3 +11,4 @@ def generate_QandA():
         answer = 'no'
 
     return(question, answer)
+    
