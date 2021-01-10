@@ -12,8 +12,8 @@ def ask_and_check_answer(game, user_name):
         if answer == correct_answer:
             print("Correct!")
         else:
-            print(f''''"{answer}" is wrong answer ;(.
-Correct answer was "{correct_answer}"''')
+            print(f'''\'{answer}\' is wrong answer ;(. \
+Correct answer was \'{correct_answer}\'.''')
             print(f"Let's try again, {user_name}!")
             break
 
