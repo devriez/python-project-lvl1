@@ -17,5 +17,5 @@ Correct answer was "{correct_answer}"''')
             print(f"Let's try again, {user_name}!")
             break
 
-    if i == 3:
+    if i == 2:
         print(f'Congratulations, {user_name}!')
