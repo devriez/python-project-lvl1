@@ -1,14 +1,15 @@
 #! /usr/bin/env python3
 
 
-import brain_games.game_engine
-from brain_games.games.brain_gcd_QandA import generate
+from brain_games.game_engine import ask_and_check_answer
+from brain_games.games.brain_gcd_QandA import generate_QandA
 from brain_games.welcome import welcome_user
 
 
 def main():
-    name = welcome_user()
-    brain_games.game_engine.main(generate, name)
+    user_name = welcome_user()
+    print('Find the greatest common divisor of given numbers.')
+    ask_and_check_answer(generate_QandA, user_name)
 
 
 if __name__ == '__mane__':

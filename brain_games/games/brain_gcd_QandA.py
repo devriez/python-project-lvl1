@@ -1,8 +1,7 @@
 import random
 
 
-def generate():
-    head_question = 'Find the greatest common divisor of given numbers.'
+def generate_QandA():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     question = f'{number1} {number2}'
@@ -15,4 +14,4 @@ def generate():
 
     answer = number1 + number2
 
-    return(head_question, question, str(answer))
+    return(question, str(answer))

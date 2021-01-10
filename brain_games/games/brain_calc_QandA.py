@@ -1,8 +1,7 @@
 import random
 
 
-def generate():
-    head_question = 'What is the result of the expression?'
+def generate_QandA():
     operations = {1: '+', 2: "-", 3: "*"}
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
@@ -16,4 +15,4 @@ def generate():
     else:
         answer = operand1 * operand2
 
-    return(head_question, question, str(answer))
+    return(question, str(answer))

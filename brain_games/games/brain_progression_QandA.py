@@ -1,8 +1,7 @@
 import random
 
 
-def generate():
-    head_question = 'What number is missing in the progression?'
+def generate_QandA():
     length = random.randint(6, 16)
     position = random.randint(1, length)
     step = random.randint(2, 10)
@@ -13,4 +12,4 @@ def generate():
     progression[position] = '..'
     question = ' '.join(progression)
 
-    return(head_question, question, str(answer))
+    return(question, str(answer))

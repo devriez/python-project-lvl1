@@ -1,13 +1,10 @@
 import prompt
 
 
-def main(game, user_name):
-    (head_question, question, correct_answer) = game()
-
-    print(head_question)
+def ask_and_check_answer(game, user_name):
 
     for i in range(3):
-        (_, question, correct_answer) = game()
+        (question, correct_answer) = game()
 
         print('Question: ', question)
         answer = prompt.string('Your answer: ')
