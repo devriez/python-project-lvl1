@@ -5,4 +5,4 @@
 
 ![linter-check](https://github.com/devriez/python-project-lvl1/workflows/linter-check/badge.svg)
 
-https://asciinema.org/a/OA8pRpFigfY4Q8z84YkYTB5Dl
+https://asciinema.org/a/r3GBzZ7cJ8bEgsxYlYWEy5dE0
