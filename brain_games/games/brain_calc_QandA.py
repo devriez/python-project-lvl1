@@ -1,8 +1,9 @@
 import random
 
+OPERATIONS = {1: '+', 2: "-", 3: "*"}
+
 
 def generate_QandA():
-    operations = {1: '+', 2: "-", 3: "*"}
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
     operation = operations[random.randint(1, 3)]
