@@ -6,7 +6,7 @@ OPERATIONS = {1: '+', 2: "-", 3: "*"}
 def generate_QandA():
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
-    operation = operations[random.randint(1, 3)]
+    operation = OPERATIONS[random.randint(1, 3)]
     question = f'{operand1} {operation} {operand2}'
 
     if operation == '+':
